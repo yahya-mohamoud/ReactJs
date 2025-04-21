@@ -1,0 +1,30 @@
+html, ::after, ::before{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: bisque;
+    height: 60px;
+    color: purple;
+    font-size: 24px;
+    padding: 10px;
+}
+
+ul{
+    list-style: none;
+    
+}
+
+a{
+    text-decoration: none;
+    color: purple;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}

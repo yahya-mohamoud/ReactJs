@@ -1,0 +1,98 @@
+:root{
+    --black: #000;
+    --white: #fff;
+    --blue: #0b0b2e;
+    --bluelight: lightblue;
+    --font-Sm: 1.25rem;
+    --font-md: 2rem;
+    --font-large: 3rem;
+    --grey: #aeadad;
+  }
+  
+  *, *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html{
+    box-sizing: border-box;
+  }
+  
+  body{
+    box-sizing: inherit;
+    background-color: var(--blue);
+    color: var(--white);
+  }
+
+  
+a{
+    text-decoration: none;
+    color: var(--white);
+    font-weight: 700;
+  
+  }
+  
+  a:hover{
+    border-bottom: 1.5px solid var(--white);
+    color: var(--grey);
+  }
+  
+  ul{
+    list-style: none;
+  }
+  
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navList ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    font-size: var(--font-Sm);
+    margin: 0 10px;
+  }
+  h1{
+    font-size: var(--font-large);
+    margin: 0 20px;
+  }
+  
+  h1 a:hover{
+    color: rgb(196, 192, 192);
+    border: none;
+  }
+  
+  .hero{
+    background-image: url(./assets/start.png); 
+    object-fit: cover;
+    height: 100vh;
+    background-size: cover;
+    color: var(--white);
+    font-size: var(--font-md);
+      --mask:
+        radial-gradient(47.81px at 50% calc(100% - 65.6px),#000 99%,#0000 101%) calc(50% - 82px) 0/164px 100%,
+        radial-gradient(47.81px at 50% calc(100% + 24.6px),#0000 99%,#000 101%) 50% calc(100% - 41px)/164px 100% repeat-x;
+      -webkit-mask: var(--mask);
+              mask: var(--mask);
+    
+  }
+  
+  .background{
+    background-color: #00000097;
+    height: 100vh;
+  }
+  
+  .background h2{
+    font-size: var(--font-large);
+  }
+  
+.info   {
+    margin: 30px 20px;
+} 
+
+.info p{
+    font-size: var(--font-Sm);
+}
