@@ -49,6 +49,10 @@ function Cards() {
 
 ]
 
+        const listItems = contacts.map((person) => {
+            
+        })
+
      return(
         <>
 
